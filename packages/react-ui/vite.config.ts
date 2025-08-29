@@ -13,7 +13,7 @@ export default defineConfig(({ command, mode }) => {
   const AP_TITLE = isDev ? 'Activepieces' : '${AP_APP_TITLE}';
 
   const AP_FAVICON = isDev
-    ? 'https://activepieces.com/favicon.ico'
+    ? 'https://marketplace.commercetools.com/img/containers/assets/integrations/universalcommerce/stage-logo-universal_commerce.png/6974a4a604871e80c96a19ac79fe9e99.png'
     : '${AP_FAVICON_URL}';
 
   return {
